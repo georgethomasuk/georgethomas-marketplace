@@ -1,12 +1,15 @@
 {
   "name": "georgethomas-marketplace",
   "description": "George Thomas's personal Claude Code plugin marketplace.",
+  "owner": {
+    "name": "George Thomas"
+  },
   "plugins": [
     {
       "name": "personal-retro",
       "description": "Personal retrospective coach — extracts Claude Code session logs and generates AI coaching notes.",
       "source": {
-        "type": "github",
+        "source": "github",
         "repo": "georgethomasuk/personal-retro-plugin"
       }
     }
